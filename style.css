@@ -1,0 +1,104 @@
+.header{
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    height: 10%;
+    width: 100%;
+    font-size: x-large;
+    background-color:#f4f6f8;
+    position: fixed;
+    /* position: sticky; */
+    border: 0cm;
+
+}
+
+.sec1{
+    display: flex;
+    gap: 10px;
+    height: 70%;
+    background-color: #f4f6f8;
+    
+    padding-top: 15vmin;
+    padding-bottom: 5vmin;
+}
+.p1{
+    padding-left: 15vmin;
+    padding-right: 5vmin;
+    
+    float: right;
+    width: 50%;
+}
+.p1 img {
+    border-radius: 40rem;
+    height: 100%;
+    width: 100%;
+}
+.p2{
+    padding-top: 15vmin;
+    font-size: x-large;
+    width: 50%;
+}
+.p2 button{
+    background-color: yellow;
+    width: 25vmin;
+    height: 5vmin;
+    border: none;
+    border-radius:3rem ;
+    font-weight: 600;
+    font-size: 2vmin;
+}
+.e1{
+    height: 15vmin;
+}
+.sec2{
+    display: flex;
+    gap: 10px;
+}
+.p3{
+    width: 50%;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    font-size: large;
+}
+.p4{
+    width: 50%;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+}
+.p4 img{
+    width: 60%;
+    height: 80% ;
+    border-radius: 50rem; 
+}
+h2{
+    text-align: center;
+    margin: 5%;
+}
+.sec3{
+    margin-top: 7%;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.p5,.p6,.p7,.p8 img{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.p5,.p6,.p7,.p8 h4{
+    text-align: center;
+    font-size: larger;
+}
+.sec4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1vmin;
+    margin: 0%;
+    padding: 0%;
+    grid-template-rows: auto;
+}
+/* .sec{
+    display: flex;
+    
+} */
+
+
